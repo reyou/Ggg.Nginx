@@ -2,3 +2,6 @@
 2018/12/18 11:05:25 [error] 21892#21892: *1 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
 2018/12/18 11:05:25 [error] 21892#21892: *1 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083"
 2018/12/18 11:08:58 [error] 21892#21892: *6 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
+2018/12/18 11:24:56 [error] 21892#21892: *9 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
+2018/12/18 11:24:57 [error] 21892#21892: *9 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
+2018/12/18 12:00:01 [error] 21892#21892: *14 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"

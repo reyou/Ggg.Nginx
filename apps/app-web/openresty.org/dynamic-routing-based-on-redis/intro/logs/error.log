@@ -1,0 +1,4 @@
+2018/12/18 12:09:31 [error] 26354#26354: *16 [lua] cacheProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/18 12:09:31 [info] 26354#26354: *16 client 127.0.0.1 closed keepalive connection
+2018/12/18 12:09:43 [error] 26354#26354: *20 [lua] cacheProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/18 12:09:44 [info] 26354#26354: *20 client 127.0.0.1 closed keepalive connection
