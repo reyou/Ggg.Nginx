@@ -1,0 +1,29 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:2380          0.0.0.0:*               LISTEN      1024/etcd       
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      13861/nginx: worker
+tcp        0      0 0.0.0.0:8082            0.0.0.0:*               LISTEN      13262/nginx.conf
+tcp        0      0 0.0.0.0:8083            0.0.0.0:*               LISTEN      21891/test.conf 
+tcp        0      0 0.0.0.0:8084            0.0.0.0:*               LISTEN      21684/nginx.conf
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      1260/dnsmasq    
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      10832/cupsd     
+tcp        0      0 127.0.0.1:60922         0.0.0.0:*               LISTEN      5370/code       
+tcp        0      0 127.0.0.1:40829         0.0.0.0:*               LISTEN      2563/kubelet    
+tcp        0      0 127.0.0.1:10248         0.0.0.0:*               LISTEN      2563/kubelet    
+tcp        0      0 127.0.0.1:10249         0.0.0.0:*               LISTEN      1017/kube-proxy 
+tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      7746/redis-server 1
+tcp6       0      0 :::10252                :::*                    LISTEN      1018/kube-controlle
+tcp6       0      0 :::8080                 :::*                    LISTEN      1019/kube-apiserver
+tcp6       0      0 :::10256                :::*                    LISTEN      1017/kube-proxy 
+tcp6       0      0 :::10257                :::*                    LISTEN      1018/kube-controlle
+tcp6       0      0 :::10259                :::*                    LISTEN      1023/kube-scheduler
+tcp6       0      0 ::1:631                 :::*                    LISTEN      10832/cupsd     
+tcp6       0      0 :::8443                 :::*                    LISTEN      7482/lxd        
+tcp6       0      0 :::32961                :::*                    LISTEN      1017/kube-proxy 
+tcp6       0      0 :::9000                 :::*                    LISTEN      10351/docker-proxy
+tcp6       0      0 :::2377                 :::*                    LISTEN      1802/dockerd    
+tcp6       0      0 :::10250                :::*                    LISTEN      2563/kubelet    
+tcp6       0      0 :::7946                 :::*                    LISTEN      1802/dockerd    
+tcp6       0      0 :::6379                 :::*                    LISTEN      16294/redis-server 
+tcp6       0      0 :::6443                 :::*                    LISTEN      1019/kube-apiserver
+tcp6       0      0 :::10251                :::*                    LISTEN      1023/kube-scheduler
