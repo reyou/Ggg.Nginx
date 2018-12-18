@@ -1,0 +1,4 @@
+2018/12/18 11:04:06 [emerg] 21491#21491: "server" directive is not allowed here in /home/aozdemir/Documents/Ggg.Nginx/apps/app-web/openresty.org/getting-started/fetch-information-from-an-api/conf.d/test.conf:1
+2018/12/18 11:05:25 [error] 21892#21892: *1 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
+2018/12/18 11:05:25 [error] 21892#21892: *1 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083"
+2018/12/18 11:08:58 [error] 21892#21892: *6 [lua] header.lua:3: 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8083"
