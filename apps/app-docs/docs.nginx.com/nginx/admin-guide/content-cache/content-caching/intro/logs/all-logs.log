@@ -1,0 +1,82 @@
+2018/12/18 16:03:54 [notice] 23929#23929: signal 1 (SIGHUP) received from 23071, reconfiguring
+2018/12/18 16:03:54 [notice] 23929#23929: reconfiguring
+2018/12/18 16:03:54 [notice] 23929#23929: using the "epoll" event method
+2018/12/18 16:03:54 [notice] 23929#23929: start worker processes
+2018/12/18 16:03:54 [notice] 23929#23929: start worker process 23087
+2018/12/18 16:03:54 [notice] 23929#23929: start cache manager process 23089
+2018/12/18 16:03:54 [notice] 22093#22093: gracefully shutting down
+2018/12/18 16:03:54 [notice] 22093#22093: exiting
+2018/12/18 16:03:54 [notice] 22093#22093: exit
+2018/12/18 16:03:54 [notice] 22094#22094: exiting
+2018/12/18 16:03:54 [notice] 22094#22094: exit
+2018/12/18 16:03:54 [notice] 23929#23929: signal 17 (SIGCHLD) received from 22094
+2018/12/18 16:03:54 [notice] 23929#23929: cache manager process 22094 exited with code 0
+2018/12/18 16:03:54 [notice] 23929#23929: signal 29 (SIGIO) received
+2018/12/18 16:03:54 [notice] 23929#23929: signal 17 (SIGCHLD) received from 22093
+2018/12/18 16:03:54 [notice] 23929#23929: worker process 22093 exited with code 0
+2018/12/18 16:03:54 [notice] 23929#23929: signal 29 (SIGIO) received
+127.0.0.1 - - [18/Dec/2018:16:04:00 -0500] "GET / HTTP/1.1" 200 606 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:01 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:02 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:02 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:03 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:03 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:03 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:03 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:03 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:04 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:04 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:04 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:30 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:04:57 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:05:11 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+2018/12/18 16:05:13 [info] 23087#23087: *104 client 127.0.0.1 closed keepalive connection
+127.0.0.1 - - [18/Dec/2018:16:05:13 -0500] "GET / HTTP/1.1" 200 606 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+2018/12/18 16:05:13 [error] 23087#23087: *106 connect() to [2606:2800:220:1:248:1893:25c8:1946]:443 failed (101: Network is unreachable) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "https://[2606:2800:220:1:248:1893:25c8:1946]:443/favicon.ico", host: "localhost:8085"
+2018/12/18 16:05:13 [warn] 23087#23087: *106 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "https://[2606:2800:220:1:248:1893:25c8:1946]:443/favicon.ico", host: "localhost:8085"
+127.0.0.1 - - [18/Dec/2018:16:05:13 -0500] "GET /favicon.ico HTTP/1.1" 404 606 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:05:19 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:06:12 -0500] "PURGE / HTTP/1.1" 405 0 "-" "curl/7.47.0" "-"
+2018/12/18 16:06:12 [info] 23087#23087: *109 client 127.0.0.1 closed keepalive connection
+127.0.0.1 - - [18/Dec/2018:16:06:15 -0500] "PURGE / HTTP/1.1" 405 0 "-" "curl/7.47.0" "-"
+2018/12/18 16:06:15 [info] 23087#23087: *111 client 127.0.0.1 closed keepalive connection
+127.0.0.1 - - [18/Dec/2018:16:06:28 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+2018/12/18 16:07:51 [notice] 23929#23929: signal 1 (SIGHUP) received from 25406, reconfiguring
+2018/12/18 16:07:51 [notice] 23929#23929: reconfiguring
+2018/12/18 16:07:51 [notice] 23929#23929: using the "epoll" event method
+2018/12/18 16:07:51 [notice] 23929#23929: start worker processes
+2018/12/18 16:07:51 [notice] 23929#23929: start worker process 25409
+2018/12/18 16:07:51 [notice] 23929#23929: start cache manager process 25410
+2018/12/18 16:07:51 [notice] 23089#23089: exiting
+2018/12/18 16:07:51 [notice] 23089#23089: exit
+2018/12/18 16:07:51 [notice] 23929#23929: signal 17 (SIGCHLD) received from 23089
+2018/12/18 16:07:51 [notice] 23929#23929: cache manager process 23089 exited with code 0
+2018/12/18 16:07:51 [notice] 23929#23929: signal 29 (SIGIO) received
+2018/12/18 16:07:51 [notice] 23087#23087: gracefully shutting down
+2018/12/18 16:07:51 [notice] 23087#23087: exiting
+2018/12/18 16:07:51 [notice] 23087#23087: exit
+2018/12/18 16:07:51 [notice] 23929#23929: signal 17 (SIGCHLD) received from 23087
+2018/12/18 16:07:51 [notice] 23929#23929: worker process 23087 exited with code 0
+2018/12/18 16:07:51 [notice] 23929#23929: signal 29 (SIGIO) received
+127.0.0.1 - - [18/Dec/2018:16:07:57 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:27 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+2018/12/18 16:22:28 [error] 25409#25409: *115 connect() to [2606:2800:220:1:248:1893:25c8:1946]:443 failed (101: Network is unreachable) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://[2606:2800:220:1:248:1893:25c8:1946]:443/", host: "localhost:8085"
+2018/12/18 16:22:28 [warn] 25409#25409: *115 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://[2606:2800:220:1:248:1893:25c8:1946]:443/", host: "localhost:8085"
+127.0.0.1 - - [18/Dec/2018:16:22:28 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:37 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:39 -0500] "GET / HTTP/1.1" 200 606 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:41 -0500] "GET / HTTP/1.1" 200 606 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:43 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+127.0.0.1 - - [18/Dec/2018:16:22:44 -0500] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0" "-"
+2018/12/18 16:38:14 [notice] 23929#23929: signal 3 (SIGQUIT) received from 18207, shutting down
+2018/12/18 16:38:14 [notice] 25410#25410: exiting
+2018/12/18 16:38:14 [notice] 25410#25410: exit
+2018/12/18 16:38:14 [notice] 23929#23929: signal 17 (SIGCHLD) received from 25410
+2018/12/18 16:38:14 [notice] 25409#25409: gracefully shutting down
+2018/12/18 16:38:14 [notice] 25409#25409: exiting
+2018/12/18 16:38:14 [notice] 23929#23929: cache manager process 25410 exited with code 0
+2018/12/18 16:38:14 [notice] 23929#23929: signal 29 (SIGIO) received
+2018/12/18 16:38:14 [notice] 25409#25409: exit
+2018/12/18 16:38:14 [notice] 23929#23929: signal 17 (SIGCHLD) received from 25409
+2018/12/18 16:38:14 [notice] 23929#23929: worker process 25409 exited with code 0
+2018/12/18 16:38:14 [notice] 23929#23929: exit
