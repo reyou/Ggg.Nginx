@@ -12,3 +12,65 @@
 2018/12/18 15:08:21 [error] 26353#26353: *29 [lua] cacheProvider.lua:26: no host found for key Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
 2018/12/18 15:16:10 [error] 26353#26353: *31 [lua] cacheProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
 2018/12/18 15:16:10 [error] 26353#26353: *31 [lua] cacheProvider.lua:26: no host found for key Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:42:16 [notice] 12832#12832: using the "epoll" event method
+2018/12/19 14:42:16 [notice] 12832#12832: openresty/1.13.6.2
+2018/12/19 14:42:16 [notice] 12832#12832: OS: Linux 4.15.0-42-generic
+2018/12/19 14:42:16 [notice] 12832#12832: getrlimit(RLIMIT_NOFILE): 1024:1048576
+2018/12/19 14:42:16 [notice] 12833#12833: start worker processes
+2018/12/19 14:42:16 [notice] 12833#12833: start worker process 12834
+2018/12/19 14:42:16 [notice] 12833#12833: start worker process 12835
+2018/12/19 14:42:34 [error] 12834#12834: *1 [lua] cacheProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:42:34 [error] 12834#12834: *1 [lua] cacheProvider.lua:26: no host found for key Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:51:44 [notice] 18055#18055: signal process started
+2018/12/19 14:51:44 [notice] 12833#12833: signal 1 (SIGHUP) received from 18055, reconfiguring
+2018/12/19 14:51:44 [notice] 12833#12833: reconfiguring
+2018/12/19 14:51:44 [notice] 12833#12833: using the "epoll" event method
+2018/12/19 14:51:44 [notice] 12833#12833: start worker processes
+2018/12/19 14:51:44 [notice] 12833#12833: start worker process 18056
+2018/12/19 14:51:44 [notice] 12833#12833: start worker process 18057
+2018/12/19 14:51:45 [notice] 12835#12835: gracefully shutting down
+2018/12/19 14:51:45 [notice] 12835#12835: exiting
+2018/12/19 14:51:45 [notice] 12834#12834: gracefully shutting down
+2018/12/19 14:51:45 [notice] 12834#12834: exiting
+2018/12/19 14:51:45 [notice] 12835#12835: exit
+2018/12/19 14:51:45 [notice] 12834#12834: exit
+2018/12/19 14:51:45 [notice] 12833#12833: signal 17 (SIGCHLD) received from 12834
+2018/12/19 14:51:45 [notice] 12833#12833: worker process 12834 exited with code 0
+2018/12/19 14:51:45 [notice] 12833#12833: worker process 12835 exited with code 0
+2018/12/19 14:51:45 [notice] 12833#12833: signal 29 (SIGIO) received
+2018/12/19 14:51:58 [error] 18056#18056: *3 [lua] routingProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:51:58 [error] 18056#18056: *3 [lua] routingProvider.lua:26: no host found for key Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:53:22 [error] 18056#18056: *5 [lua] routingProvider.lua:2: Version 1 getting called., client: 127.0.0.1, server: , request: "GET /https://www.webmd.com HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:53:22 [error] 18056#18056: *5 [lua] routingProvider.lua:26: no host found for key Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0, client: 127.0.0.1, server: , request: "GET /https://www.webmd.com HTTP/1.1", host: "localhost:8084"
+2018/12/19 14:53:54 [notice] 19035#19035: signal process started
+2018/12/19 14:53:54 [notice] 12833#12833: signal 1 (SIGHUP) received from 19035, reconfiguring
+2018/12/19 14:53:54 [notice] 12833#12833: reconfiguring
+2018/12/19 14:53:54 [notice] 12833#12833: using the "epoll" event method
+2018/12/19 14:53:54 [notice] 12833#12833: start worker processes
+2018/12/19 14:53:54 [notice] 12833#12833: start worker process 19036
+2018/12/19 14:53:54 [notice] 12833#12833: start worker process 19037
+2018/12/19 14:53:54 [notice] 18057#18057: gracefully shutting down
+2018/12/19 14:53:54 [notice] 18057#18057: exiting
+2018/12/19 14:53:54 [notice] 18057#18057: exit
+2018/12/19 14:53:54 [notice] 18056#18056: gracefully shutting down
+2018/12/19 14:53:54 [notice] 12833#12833: signal 17 (SIGCHLD) received from 18057
+2018/12/19 14:53:54 [notice] 18056#18056: exiting
+2018/12/19 14:53:54 [notice] 12833#12833: worker process 18057 exited with code 0
+2018/12/19 14:53:54 [notice] 12833#12833: signal 29 (SIGIO) received
+2018/12/19 14:53:54 [notice] 18056#18056: exit
+2018/12/19 14:53:54 [notice] 12833#12833: signal 17 (SIGCHLD) received from 18056
+2018/12/19 14:53:54 [notice] 12833#12833: worker process 18056 exited with code 0
+2018/12/19 14:53:54 [notice] 12833#12833: signal 29 (SIGIO) received
+2018/12/19 14:57:14 [notice] 12833#12833: signal 3 (SIGQUIT) received from 11812, shutting down
+2018/12/19 14:57:14 [notice] 19037#19037: gracefully shutting down
+2018/12/19 14:57:14 [notice] 19037#19037: exiting
+2018/12/19 14:57:14 [notice] 19037#19037: exit
+2018/12/19 14:57:15 [notice] 19036#19036: gracefully shutting down
+2018/12/19 14:57:15 [notice] 12833#12833: signal 17 (SIGCHLD) received from 19037
+2018/12/19 14:57:15 [notice] 19036#19036: exiting
+2018/12/19 14:57:15 [notice] 12833#12833: worker process 19037 exited with code 0
+2018/12/19 14:57:15 [notice] 12833#12833: signal 29 (SIGIO) received
+2018/12/19 14:57:15 [notice] 19036#19036: exit
+2018/12/19 14:57:15 [notice] 12833#12833: signal 17 (SIGCHLD) received from 19036
+2018/12/19 14:57:15 [notice] 12833#12833: worker process 19036 exited with code 0
+2018/12/19 14:57:15 [notice] 12833#12833: exit

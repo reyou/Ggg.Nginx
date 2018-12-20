@@ -43,11 +43,13 @@ $ get foo
 $ get bar
 ```
 
+### Start
+
 Then we start the nginx server with our config file this way:
 
 ```
-$ PATH=/usr/local/openresty/nginx/sbin:$PATH
-$ export PATH
+$ export PATH=/usr/local/openresty/nginx/sbin:$PATH
+$ cd /home/aozdemir/Documents/Ggg.Nginx/apps/app-web/openresty.org/dynamic-routing-based-on-redis/intro/
 $ nginx -p `pwd`/ -c conf/nginx.conf
 $ nginx -p `pwd`/ -c conf/nginx.conf -s reload
 ```

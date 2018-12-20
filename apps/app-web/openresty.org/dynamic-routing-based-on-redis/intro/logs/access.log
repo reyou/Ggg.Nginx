@@ -9,3 +9,6 @@
 127.0.0.1 - - [18/Dec/2018:12:23:47 -0500] "GET / HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
 127.0.0.1 - - [18/Dec/2018:15:08:21 -0500] "GET / HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
 127.0.0.1 - - [18/Dec/2018:15:16:10 -0500] "GET / HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
+127.0.0.1 - - [19/Dec/2018:14:42:34 -0500] "GET / HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
+127.0.0.1 - - [19/Dec/2018:14:51:58 -0500] "GET / HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
+127.0.0.1 - - [19/Dec/2018:14:53:22 -0500] "GET /https://www.webmd.com HTTP/1.1" 400 179 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
