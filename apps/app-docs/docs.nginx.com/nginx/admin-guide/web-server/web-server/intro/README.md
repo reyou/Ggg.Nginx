@@ -5,8 +5,7 @@
 ### Run
 ```
 $ nginx -c /home/aozdemir/Documents/Ggg.Nginx/apps/app-docs/docs.nginx.com/nginx/admin-guide/web-server/web-server/intro/config/nginx.conf
-```
-```
+
 $ nginx -s reload -c /home/aozdemir/Documents/Ggg.Nginx/apps/app-docs/docs.nginx.com/nginx/admin-guide/web-server/web-server/intro/config/nginx.conf
 ```
 
