@@ -4,3 +4,8 @@
 2019/02/04 15:25:35 [emerg] 4643#4643: bind() to 0.0.0.0:8080 failed (98: Address already in use)
 2019/02/04 15:25:35 [emerg] 4643#4643: bind() to 0.0.0.0:8080 failed (98: Address already in use)
 2019/02/04 15:25:35 [emerg] 4643#4643: still could not bind()
+2019/02/21 15:45:06 [emerg] 2017#2017: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2019/02/21 15:45:06 [emerg] 2017#2017: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2019/02/21 15:45:06 [emerg] 2017#2017: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2019/02/21 15:45:06 [emerg] 2017#2017: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2019/02/21 15:46:03 [notice] 2516#2516: signal process started
