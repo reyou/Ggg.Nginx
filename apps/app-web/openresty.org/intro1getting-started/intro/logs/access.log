@@ -1,7 +1,0 @@
-127.0.0.1 - - [18/Dec/2018:10:50:29 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:10:50:29 -0500] "GET /favicon.ico HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:10:50:46 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:10:51:07 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:10:51:08 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:10:51:09 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
-127.0.0.1 - - [18/Dec/2018:11:08:55 -0500] "GET / HTTP/1.1" 200 31 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0"
