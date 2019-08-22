@@ -1,2 +1,2 @@
-﻿ #!/bin/bash
- sudo ps -ax | grep nginx
+﻿#!/bin/bash
+sudo ps -ax | grep nginx
